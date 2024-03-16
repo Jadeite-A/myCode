@@ -1,0 +1,9 @@
+// 修改元素+自定义命名空间，默认为'el'。
+// 如果开发人员想再次更改命名空间，有三个文件需要更改。详情如下:
+// 文件1:'current(/src/assets/common/css/ namspace.scss)'
+// 文件2:'/vue.config.js -> css config'
+// 文件3:'src/App. 'Vue -> el-config-provider -> namespace'
+
+// @forward 'element-plus/theme-chalk/src/mixins/config.scss' with (
+//   $namespace: 'ws'
+// );

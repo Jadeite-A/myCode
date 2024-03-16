@@ -1,0 +1,68 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noImplicitAny": false,
+    "baseUrl": "./",
+    "declaration": true,
+    "types": [
+      "vite/client",
+      // "@types/node",
+      // "@types/vue"
+    ],
+    "paths": {
+      // "@type/*": [
+      //   "types/*"
+      // ],
+      "@utils/*": [
+        "src/utils/*"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@assets/*": [
+        "src/assets/*"
+      ],
+      "@stores/*": [
+        "src/stores/*"
+      ],
+      // "@api/*": [
+      //   "src/api/*"
+      // ],
+      "@components/*": [
+        "src/components/*"
+      ],
+      // "@constructors/*": [
+      //   "src/constructors/*"
+      // ],
+      "@views/*": [
+        "src/views/*"
+      ],
+      // "@service/*": [
+      //   "src/service/*"
+      // ],
+      "@/*": [
+        "src/*"
+      ],
+    },
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

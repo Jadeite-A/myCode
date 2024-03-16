@@ -1,0 +1,139 @@
+/*
+* Generic Color Variable Definition
+**/
+@use 'sass:map';
+
+:root {
+  color-scheme: light;
+  --bg-color: #ffffff;
+  --bg-gray-color: #f7f7f7;
+}
+
+$color: () !default;
+$color: map.deep-merge(
+  (
+    // Main color part
+    // main color
+    'base': #2556AE,
+    'error': #EB1D1D,
+    'warning': #EFB51E,
+    'success': #23D623,
+    // hover color
+    '8c171b': #8c171b,
+    // highlight color
+    ca282f: #CA282F,
+
+    // Main color system Auxiliary color system part
+    // deep
+    '172231': #172231,
+    // shallow
+    '999': #999999,
+    // shallowest
+    ccc: #cccccc,
+
+    // Auxiliary color system part
+    auxiliary: #2762CD,
+    F0F5FF: #F0F5FF,
+    c59564: #c59564,
+    dfbb96: #dfbb96,
+    cccc50: rgba(204,204,204, .5),
+    f7f7f7: #f7f7f7,
+    e6e6e6: #e6e6e6,
+    '979797': #979797,
+    f5f5f5: #f5f5f5,
+    cc3333: #cc3333,
+    33cc33: #33cc33,
+    "f8f8f8": #f8f8f8,
+    "EDF4FF": #EDF4FF,
+
+    // others
+    'white': #ffffff,
+    'black': #000000
+  ),
+  $color
+);
+
+
+// Main color part
+// main color
+$color-base: map.get($color, 'base') !default;
+$color-error: map.get($color, 'error') !default;
+$color-warning: map.get($color, 'warning') !default;
+$color-success: map.get($color, 'success') !default;
+// hover color
+$color-8c171b: map.get($color, '8c171b') !default;
+// highlight color
+$color-ca282f: map.get($color, 'ca282f') !default;
+
+// Main color system Auxiliary color system part
+// deep
+$color-172231: map.get($color, '172231') !default;
+// shallow
+$color-999: map.get($color, '999') !default;
+$color-999999: map.get($color, '999') !default;
+// shallowest
+$color-cccccc: map.get($color, 'ccc') !default;
+$color-ccc: map.get($color, 'ccc') !default;
+
+// Auxiliary color system part
+$color-auxiliary: map.get($color, 'auxiliary') !default;
+$color-f0f5ff: map.get($color, 'F0F5FF') !default;
+$color-c59564: map.get($color, 'c59564') !default;
+$color-dfbb96: map.get($color, 'dfbb96') !default;
+$color-cccc50: map.get($color, 'cccc50') !default;
+$color-f7f7f7: map.get($color, 'f7f7f7') !default;
+$color-e6e6e6: map.get($color, 'e6e6e6') !default;
+$color-979797: map.get($color, '979797') !default;
+$color-f5f5f5: map.get($color, 'f5f5f5') !default;
+$color-cc3333: map.get($color, 'cc3333') !default;
+$color-33cc33: map.get($color, '33cc33') !default;
+$color-f8f8f8: map.get($color, 'f8f8f8') !default;
+$color-EDF4FF: map.get($color, 'EDF4FF') !default;
+$color-white: map.get($color, 'white') !default;
+$color-black: map.get($color, 'black') !default;
+$color-fff: map.get($color, 'white') !default;
+// Special key name
+$color-warn: map.get($color, 'cc3333') !default;
+$color-success: map.get($color, '33cc33') !default;
+
+// Background color
+$bg-color-default: map.get($color, 'white') !default;
+
+// Separator color
+$separator-default: map.get($color, 'ccc') !default;
+
+
+/**
+* Shadow type section
+*/
+$shadow: () !default;
+$shadow: map.deep-merge(
+  (
+    // shadow
+    default: 0 0 8px 8px rgb(209, 209, 209, .5),
+    // normal
+    normal: 0 0 18px 0px rgb(29 41 57 / 14%),
+    // Button shadow
+    btn: 0 2px 4px 0 rgba(204, 204, 204, 1),
+    // Tab shadow
+    tab: 0 2px 4px 0 rgba(204, 204, 204, .5),
+    // window shadow
+    windows:  0 8px 10px 0 rgba(204, 204, 204, 1),
+    // windows:  0 0px 30px 0 rgba(0, 0, 0, 0.25),
+  ),
+  $shadow
+);
+// shadow
+$default-shadow: map.get($shadow, 'default') !default;
+// normal
+$normal-shadow: map.get($shadow, 'normal') !default;
+// Button shadow
+$btn-shadow: map.get($shadow, 'btn') !default;
+// Tabs shadow
+$tab-shadow: map.get($shadow, 'tab') !default;
+// Window shadow
+$window-shadow: map.get($shadow, 'windows') !default;
+
+:export {
+  mainColor: $color-base;
+}

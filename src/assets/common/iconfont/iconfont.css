@@ -1,0 +1,510 @@
+@font-face {
+  font-family: "lx-icon"; /* Project id 3555108 */
+  src: url('iconfont.eot?t=1710486318103'); /* IE9 */
+  src: url('iconfont.eot?t=1710486318103#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('iconfont.woff2?t=1710486318103') format('woff2'),
+       url('iconfont.woff?t=1710486318103') format('woff'),
+       url('iconfont.ttf?t=1710486318103') format('truetype'),
+       url('iconfont.svg?t=1710486318103#lx-icon') format('svg');
+}
+
+.lx-icon {
+  font-family: "lx-icon" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.lx-icon-a-byuse:before {
+  content: "\e64a";
+}
+
+.lx-icon-a-byTheorye:before {
+  content: "\e64b";
+}
+
+.lx-icon-a-byMFG:before {
+  content: "\e64c";
+}
+
+.lx-icon-perspective:before {
+  content: "\e645";
+}
+
+.lx-icon-Favorites:before {
+  content: "\e647";
+}
+
+.lx-icon-template:before {
+  content: "\e644";
+}
+
+.lx-icon-Rank:before {
+  content: "\e640";
+}
+
+.lx-icon-EditPen:before {
+  content: "\e641";
+}
+
+.lx-icon-FolderAdd:before {
+  content: "\e642";
+}
+
+.lx-icon-Document:before {
+  content: "\e643";
+}
+
+.lx-icon-edit1:before {
+  content: "\e63b";
+}
+
+.lx-icon-a-edit1:before {
+  content: "\e63c";
+}
+
+.lx-icon-delete2:before {
+  content: "\e63d";
+}
+
+.lx-icon-a-delete1:before {
+  content: "\e63e";
+}
+
+.lx-icon-Add:before {
+  content: "\e63f";
+}
+
+.lx-icon-Export:before {
+  content: "\e63a";
+}
+
+.lx-icon-Folder:before {
+  content: "\e639";
+}
+
+.lx-icon-import:before {
+  content: "\e638";
+}
+
+.lx-icon-a-Exportvlf:before {
+  content: "\e637";
+}
+
+.lx-icon-a-Geometricsimulation:before {
+  content: "\e635";
+}
+
+.lx-icon-a-PhysicalSimulation:before {
+  content: "\e636";
+}
+
+.lx-icon-search:before {
+  content: "\e633";
+}
+
+.lx-icon-date-picker:before {
+  content: "\e634";
+}
+
+.lx-icon-shouqijiantou:before {
+  content: "\eb14";
+}
+
+.lx-icon-zhankaijiantou:before {
+  content: "\eb15";
+}
+
+.lx-icon-relieve-full:before {
+  content: "\e9ba";
+}
+
+.lx-icon-icon_fail:before {
+  content: "\e631";
+}
+
+.lx-icon-icon_warn:before {
+  content: "\e632";
+}
+
+.lx-icon-validity:before {
+  content: "\e630";
+}
+
+.lx-icon-a-ProbeConfigration1:before {
+  content: "\e622";
+}
+
+.lx-icon-xiajiantou:before {
+  content: "\e621";
+}
+
+.lx-icon-31shezhi:before {
+  content: "\e620";
+}
+
+.lx-icon-delete1:before {
+  content: "\e6c2";
+}
+
+.lx-icon-bianji:before {
+  content: "\e600";
+}
+
+.lx-icon-add-2:before {
+  content: "\e603";
+}
+
+.lx-icon-a-detectorparameters:before {
+  content: "\e61e";
+}
+
+.lx-icon-a-freespacepropagaation:before {
+  content: "\e61a";
+}
+
+.lx-icon-a-SourceConfiguration:before {
+  content: "\e61b";
+}
+
+.lx-icon-Modeling:before {
+  content: "\e61c";
+}
+
+.lx-icon-parameters:before {
+  content: "\e61d";
+}
+
+.lx-icon-a-ChannelConfiguration:before {
+  content: "\e619";
+}
+
+.lx-icon-structure:before {
+  content: "\e618";
+}
+
+.lx-icon-settings-icon:before {
+  content: "\e616";
+}
+
+.lx-icon-a-positionorientation:before {
+  content: "\e615";
+}
+
+.lx-icon-a-coordinatesystems:before {
+  content: "\e612";
+}
+
+.lx-icon-arrow:before {
+  content: "\e611";
+}
+
+.lx-icon-squared_amplitude:before {
+  content: "\e60b";
+}
+
+.lx-icon-summed_squared_amplitude:before {
+  content: "\e60c";
+}
+
+.lx-icon-real_part:before {
+  content: "\e60d";
+}
+
+.lx-icon-imaginary_part:before {
+  content: "\e60e";
+}
+
+.lx-icon-amplitude:before {
+  content: "\e60f";
+}
+
+.lx-icon-phase:before {
+  content: "\e610";
+}
+
+.lx-icon-Union:before {
+  content: "\e602";
+}
+
+.lx-icon-sun:before {
+  content: "\e861";
+}
+
+.lx-icon-slider1:before {
+  content: "\e689";
+}
+
+.lx-icon-select-4:before {
+  content: "\e688";
+}
+
+.lx-icon-visibility-:before {
+  content: "\e687";
+}
+
+.lx-icon-inside:before {
+  content: "\e67f";
+}
+
+.lx-icon-trigger:before {
+  content: "\e681";
+}
+
+.lx-icon-a-triggertooltip:before {
+  content: "\e682";
+}
+
+.lx-icon-content:before {
+  content: "\e685";
+}
+
+.lx-icon-type:before {
+  content: "\e686";
+}
+
+.lx-icon-Password:before {
+  content: "\e67a";
+}
+
+.lx-icon-O:before {
+  content: "\e67b";
+}
+
+.lx-icon-N:before {
+  content: "\e67c";
+}
+
+.lx-icon-Password-Forget:before {
+  content: "\e67d";
+}
+
+.lx-icon-cuowu:before {
+  content: "\e66d";
+}
+
+.lx-icon-undo:before {
+  content: "\e66f";
+}
+
+.lx-icon-redo:before {
+  content: "\e670";
+}
+
+.lx-icon-new:before {
+  content: "\e671";
+}
+
+.lx-icon-a-showall:before {
+  content: "\e672";
+}
+
+.lx-icon-run1:before {
+  content: "\e673";
+}
+
+.lx-icon-a-Profileoverview:before {
+  content: "\e674";
+}
+
+.lx-icon-a--:before {
+  content: "\e675";
+}
+
+.lx-icon-a-:before {
+  content: "\e676";
+}
+
+.lx-icon-a-allelements:before {
+  content: "\e677";
+}
+
+.lx-icon-a-MCEditor:before {
+  content: "\e678";
+}
+
+.lx-icon-a-Parameteroverview:before {
+  content: "\e679";
+}
+
+.lx-icon-icon_open:before {
+  content: "\e66e";
+}
+
+.lx-icon-icon_new:before {
+  content: "\e66c";
+}
+
+.lx-icon-icon-bai:before {
+  content: "\e66a";
+}
+
+.lx-icon-icon-hong:before {
+  content: "\e66b";
+}
+
+.lx-icon-zoom-out:before {
+  content: "\e683";
+}
+
+.lx-icon-zoom-in:before {
+  content: "\e684";
+}
+
+.lx-icon-icon_Prompt:before {
+  content: "\e661";
+}
+
+.lx-icon-a-icon_SolverFunctions1:before {
+  content: "\e663";
+}
+
+.lx-icon-icon_DetectorParameters1:before {
+  content: "\e664";
+}
+
+.lx-icon-a-icon_FreeSpacePropagation1:before {
+  content: "\e666";
+}
+
+.lx-icon-icon_Modeling1:before {
+  content: "\e667";
+}
+
+.lx-icon-a-icon_ChannelConfiguration1:before {
+  content: "\e668";
+}
+
+.lx-icon-icon_DetectorParameters:before {
+  content: "\e660";
+}
+
+.lx-icon-zhankai:before {
+  content: "\e614";
+}
+
+.lx-icon-shouqi:before {
+  content: "\e648";
+}
+
+.lx-icon-a-icon_ChannelConfiguration:before {
+  content: "\e659";
+}
+
+.lx-icon-a-icon_CoordinateSystems:before {
+  content: "\e65a";
+}
+
+.lx-icon-icon_Position:before {
+  content: "\e65b";
+}
+
+.lx-icon-icon_Modeling:before {
+  content: "\e65c";
+}
+
+.lx-icon-a-icon_FreeSpacePropagation:before {
+  content: "\e65d";
+}
+
+.lx-icon-a-icon_SolverFunctions:before {
+  content: "\e65e";
+}
+
+.lx-icon-icon_Structure:before {
+  content: "\e65f";
+}
+
+.lx-icon-path:before {
+  content: "\ea06";
+}
+
+.lx-icon-quanbu-copy:before {
+  content: "\e64f";
+}
+
+.lx-icon-run:before {
+  content: "\e6c1";
+}
+
+.lx-icon-insert-2:before {
+  content: "\e658";
+}
+
+.lx-icon-insert-1:before {
+  content: "\e657";
+}
+
+.lx-icon-chakanshuju:before {
+  content: "\e70c";
+}
+
+.lx-icon-right:before {
+  content: "\e613";
+}
+
+.lx-icon-fuzhi:before {
+  content: "\e656";
+}
+
+.lx-icon-niantie:before {
+  content: "\e617";
+}
+
+.lx-icon-close2:before {
+  content: "\e646";
+}
+
+.lx-icon-zuixiaohua1:before {
+  content: "\e768";
+}
+
+.lx-icon-closequanping:before {
+  content: "\e7a1";
+}
+
+.lx-icon-quanping:before {
+  content: "\e7ff";
+}
+
+.lx-icon-i-3d:before {
+  content: "\e623";
+}
+
+.lx-icon-3d:before {
+  content: "\e601";
+}
+
+.lx-icon-i3d:before {
+  content: "\e649";
+}
+
+.lx-icon-delete_warning:before {
+  content: "\e60a";
+}
+
+.lx-icon-delete:before {
+  content: "\e609";
+}
+
+.lx-icon-edit:before {
+  content: "\e605";
+}
+
+.lx-icon-enable:before {
+  content: "\e606";
+}
+
+.lx-icon-insert:before {
+  content: "\e607";
+}
+
+.lx-icon-disable:before {
+  content: "\e608";
+}
+
+.lx-icon-add:before {
+  content: "\e604";
+}
+
