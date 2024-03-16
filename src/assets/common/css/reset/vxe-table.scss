@@ -1,10 +1,11 @@
 /**
 * Reset VXETable global scss vars.
 */
-@import 'vxe-table/styles/index.scss';
-
 @use '@/assets/common/css/color.scss' as *;
 @use '@/assets/common/css/font.scss' as *;
+
+@import 'vxe-table/styles/index.scss';
+
 
 
 // Customize scss

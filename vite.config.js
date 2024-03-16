@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import AutoImport from 'unplugin-auto-import/vite';
+import { resolve } from "path";
 
 import Components from 'unplugin-vue-components/vite';
 import { ElementPlusResolver } from'unplugin-vue-components/resolvers';
@@ -60,6 +61,17 @@ export default defineConfig({
       dts: "./src/components.d.ts",
     })
   ],
+  resolve: {
+    alias: {
+      "@": resolve(__dirname, "./src"),
+      "@components": resolve(__dirname, "./src/components"),
+      "@utils" : resolve(__dirname, "./src/utils"),
+      "@views" : resolve(__dirname, "./src/views"),
+      "@config" : resolve(__dirname, "./src/config"),
+      "@assets" : resolve(__dirname, "./src/assets"),
+      "@stores" : resolve(__dirname, "./src/stores"),
+    },
+  },
   css: {
     preprocessorOptions: {
       scss: {
